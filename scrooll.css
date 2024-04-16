@@ -1,0 +1,374 @@
+
+
+.tilt-neon #heading,
+.tilt-neon #heading2 {
+  font-family: "Tilt Neon", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+  opacity: 1;
+}
+
+h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+header {
+  height: 200vh;
+}
+
+.container {
+  clip: rect(0, auto, auto, 0);
+  overflow: hidden;
+  position: absolute;
+  height: 100vh;
+  left: 0;
+  width: 100%;
+  -webkit-mask-image: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+}
+
+.container_solid {
+  height: 100vh;
+  background-color: red;
+  background-image: linear-gradient(#ff4080, #ffde59);
+  top: 0;
+}
+
+.title_wrapper {
+  position: fixed;
+  display: block;  
+  margin: auto;
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.title_wrapper h1 {
+  text-align: center;
+  font-size: 64px;
+  text-transform: uppercase;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+}
+
+.container_solid .title_wrapper h1 {
+  background: url(https://i.ibb.co/THn7qKs/imgonline-com-ua-resize-MPXOGl-Lt1ek-U1-DI.jpg);
+  background-size: 100vw auto;
+  background-position: center;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: white;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: white;
+}
+
+.container_image {
+  background-image: url(https://i.ibb.co/THn7qKs/imgonline-com-ua-resize-MPXOGl-Lt1ek-U1-DI.jpg);
+  background-size: 100vw auto;
+  background-position: center;
+  background-attachment: fixed;
+  top: 100vh;
+  opacity: 0.9;
+}
+
+.container_image .title_wrapper h1 {
+  color: #ffed59;
+}
+
+#heading,
+#heading2 {
+  opacity: 0;
+  animation: fadeInAnimation 4s ease forwards;
+  animation: zoomInAnimation 4s ease;
+}
+
+
+section {
+  min-height: 100vh;
+  padding: 2em;
+  margin: auto;
+  max-width: 800px;
+}
+
+section h2 {
+  font-family: 'Fraunces', serif;
+}
+
+section p {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 300;
+}
+
+
+/* Styles from soon.css */
+#test {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    animation-delay: 2s;
+    animation: fadein 4s;
+    -moz-animation: fadein 4s;
+    -webkit-animation: fadein 4s;
+    -o-animation: fadein 4s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.bgimg {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: black;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+#img {
+  width: 850px;
+  height: auto;
+}
+
+#img2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  animation: zoomIn 4s;
+}
+#img3 {
+  width: 250px; /* Initial width */
+  height: auto; /* Maintain aspect ratio */
+  transform: scale(1); /* Initially set to 1 (normal size) */
+  transition: transform 1s ease; /* Smooth transition for transform property */
+}
+
+#heading3 {
+  color: #ffde59;
+  margin-top: 25px;
+  font-size: 210px;
+  text-align: center;
+  animation-delay: 19s !important; /* Delay the animation by 0.4 seconds */
+  animation: fadein 5s;
+  -moz-animation: fadein 5s;
+  -webkit-animation: fadein 5s;
+  -o-animation: fadein 5s;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+#heading-container {
+  opacity: 0; /* Start with opacity 0 to hide the animation */
+  transition: opacity 0.5s ease; /* Smooth transition */
+}
+
+#heading-container.animate {
+  opacity: 0; /* Make the animation visible */
+}
+
+#Heading3 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  color: #ff4080;
+  border-right: .25em solid #ff4080; /* The typewriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  -webkit-animation-delay: 3s !important; 
+  visibility: hidden; /* Initially hidden */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .25em; /* Adjust as needed */
+  animation: typing 4s steps(40, end) forwards;
+  animation-delay: 3s; /* Delay the animation to match -webkit-animation-delay */
+}
+
+/* The typing effect */
+@keyframes typing {
+  0% { width: 0; visibility: visible; } /* Start with width 0 */
+  100% { width: 108%; visibility: visible; } /* Set visibility to visible at the end */
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  30% { border-color: #ff4080; }
+}
+
+
+#heading {
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 120px;
+  margin: 10px 0;
+}
+/* styling my button */
+
+#ceocomments {
+  display: block;
+  float: left; /* This aligns the element to the left */
+  padding-top: 80px;
+  width: 800px;
+  height: auto;
+}
+
+h3 {
+color: black;
+}
+
+
+
+#demo {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #8c52ff;
+}
+
+.button {
+  display: inline-block;
+  padding: 30px 50px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff4080;
+  border: 2px solid #ff4080;
+  border-radius: 5px;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background-color: #8c52ff;
+  border-color: #8c52ff;
+}
+
+.button:active {
+  background-color: #ffed59;
+  border-color: #FFED;
+}
+.footer {
+  background-color: black;
+  color: #fff;
+  padding: 0.5px;
+  text-align: centre;
+  font-size: 20px;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.social-links a:hover {
+  color: #ccc;
+}
+
+.rectangle4 {
+  background-color:black;
+  width: 1400px;
+
+}
+
+#iconset {
+  width: 30px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+#copyrights{
+  padding-right: 10px;
+}
